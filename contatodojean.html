@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contatos - Barbearia Chavosidade</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styledojean.css">
+</head>
+
+<body>
+    <audio src="midia/musicaDeFundo.mp3" autoplay loop controls></audio>
+
+    <header>
+        <div class="caixa">
+            <h1><img src="minha logo.jpeg" alt="logo da Barbearia Chavosidade"></h1>
+
+            <nav>
+                <ul class="navegacao">
+                    <li><a href="indexdojean.html">Home</a></li>
+                    <li><a href="produtosdojean.html">Produtos</a></li>
+                    <li><a href="contatodojean.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form>
+            <label for="nome">Nome</lebel>
+            <input type="text" id="nome" class="input-padrao" required placeholder="Nome">
+
+            <label for="sobrenome">Sobrenome</lebel>
+            <input type="text" id="sobrenome" class="input-padrao" required placeholder="Sobrenome">
+    
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="Insira seu email">
+
+            <label for=" Telefone">Telefone</label>
+            <input type="tel " id="Telefone" class="input-padrao" required placeholder="Número de telefone">
+
+            <label for="mensagem">Mensagem </label>
+            <textarea cols="50 " rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+            <fieldset>
+                <legend class="legend_para-contato"> Como prefere o nosso contato?</legend>
+                <label for="radio-email">
+                <input type="radio" name="contato" value="email" id="radio-email"checked >Email</label>
+
+                <label for="radio-telefone"> <input type="radio" name="contato"value="telefone" id=radio-telefone>Telefone</label>
+
+                <label for="radio-WhatsApp"><input type="radio" name="contato" value="WhatsApp" id=radio-WhatsApp>WhatsApp</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>qual horário prefere ser atedido?</legend>
+                <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                    </select>
+            </fieldset>
+
+            <label class="checkbox ">
+                <input type="checkbox" class="legenda-contato" checked > Gostaria de receber nossa novidades por email?
+            </label>
+
+            <input type="submit" value="Enviar Formulário" class="formulario ">
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>horário</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Quarta</td>
+                    <td>8h~20h</td>
+                </tr>
+                <tr>
+                    <td> Quarta</td>
+                    <td>8h~20h</td>
+                </tr>
+                <tr>
+                    <td>Sexta</td>
+                    <td>8h~20h</td>
+                </tr>
+                <tr>
+                    <td colspan="-1">Rio de Janeiro</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <img src="minha logo.jpeg " alt="Logo da barbearia Chavosidade ">
+        <p class="copiright ">&copy; Copiright Barbearia Chavosidade - 2022</p>
+    </footer>
+</body>
+
+</html>
